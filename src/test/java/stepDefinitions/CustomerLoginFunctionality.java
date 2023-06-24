@@ -18,7 +18,7 @@ public class CustomerLoginFunctionality extends Base {
     public void i_am_in_landing_page() {
         navigate("http://it.microtechlimited.com");
     }
-
+// hi test update
     @Then("I click on Login Menu")
     public void i_click_on_login_menu() {
         click( LandingPage.menuLogin );
