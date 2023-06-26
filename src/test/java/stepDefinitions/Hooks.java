@@ -4,6 +4,7 @@ import base.Base;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 
+
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
@@ -22,8 +23,7 @@ public class Hooks extends Base {
 
     @After
     public void tearDown() throws InterruptedException {
-        //Thread.sleep(20000);
-        //driver.close(); //to close Current Tab of the Browser
-        driver.quit();  //to close Browser Application or Window
+
+        driver.quit();
     }
 }
