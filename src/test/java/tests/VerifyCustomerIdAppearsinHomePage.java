@@ -27,6 +27,7 @@ public class VerifyCustomerIdAppearsinHomePage extends Base {
         navigate("http://it.microtechlimited.com");
         //Login as Customer
         CustomerLoginPage.loginAsCustomer();
+        System.out.println("2nd update");
         //-------------------- Customer Home page
         //Verify Test's Home Page
         String customerMsg = getText( By.xpath("//h2[contains(text(),'Customer')]") );
